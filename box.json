@@ -1,0 +1,22 @@
+{
+    "name":"CFWheels Example Plugin",
+    "version":"0.0.4",
+    "author":"Tom King",
+    "location":"neokoenig/cfwheels-plugin-example#v0.0.4",
+    "directory":"/plugins/",
+    "createPackageDirectory":true,
+    "packageDirectory":"HelloWorld",
+    "homepage":"https://github.com/neokoenig/cfwheels-plugin-example",
+    "slug":"cfwheels-plugin-example",
+    "shortDescription":"CFWheels Example Plugin",
+    "type":"cfwheels-plugins",
+    "keywords":"test",
+    "private":false,
+    "scripts":{
+        "postVersion":"package set location='neokoenig/cfwheels-plugin-example#v`package version`'",
+        "postPublish":"!git push --follow-tags",
+        "patch-release":"bump --patch && publish",
+        "minor-release":"bump --minor && publish",
+        "major-release":"bump --major && publish"
+    }
+}
