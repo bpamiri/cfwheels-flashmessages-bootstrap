@@ -35,32 +35,3 @@ component {
   	return result;
   }
 }
-/*
-<cfcomponent output="false">
-	<cffunction name="init" returntype="struct" access="public">
-		<cfscript>
-			var loc = {};
-			this.version = "2.0.0";
-			return this;
-		</cfscript>
-	</cffunction> 
-	<cffunction name="flashMessages" access="public" returntype="string" output="false"> 
-		<cfset result = core.flashMessages(argumentCollection=arguments)>
-		<cfif result neq "">
-			<cfset result = replace(result, '<div class="flash-messages">', '')>
-			<cfset result = replace(result, '</div>', '')>
-			<cfset result = replace(result, '<p', '<div', 'all')>
-			<cfset result = replace(result, '</p>', '</div>', 'all')>
-			<cfset append = ' role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>'>
-			<cfset result = replace(result, 'class="success-message">', 'class="alert alert-success alert-dismissible"' & append, 'all')>
-			<cfset result = replace(result, 'class="info-message">', 'class="alert alert-info alert-dismissible"' & append, 'all')>
-			<cfset result = replace(result, 'class="warning-message">', 'class="alert alert-warning alert-dismissible"' & append, 'all')>
-			<cfset result = replace(result, 'class="danger-message">', 'class="alert alert-danger alert-dismissible"' & append, 'all')>
-
-			<cfset result = replace(result, 'class="error-message">', 'class="alert alert-danger alert-dismissible"' & append, 'all')>
-			<cfset result = reReplace(result, 'class=".*?-message">', 'class="alert alert-info alert-dismissible"' & append, 'all')>
-		</cfif>
-		<cfreturn result />
-	</cffunction> 
-</cfcomponent>
-*/
