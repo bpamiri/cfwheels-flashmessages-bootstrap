@@ -19,7 +19,7 @@ This plugin handles three different cases of alerts:
 To use this plugin simply add the following code to your view or layout file.
 ~~~ColdFusion
 <cfoutput>
-  #flashMessages()#$ install select-string
+  #flashMessages()#
 </cfoutput>
 ~~~
 
