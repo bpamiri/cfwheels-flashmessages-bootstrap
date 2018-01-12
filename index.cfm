@@ -2,7 +2,7 @@
 
 <cfscript>
 	flashMessagesBootstrapMeta = {};
-	flashMessagesBootstrapMeta.version = "1.0.1";
+	flashMessagesBootstrapMeta.version = "1.0.2";
 	flashInsert(info="flash(""info"")");
 	flashInsert(success="flash(""success"")");
 	flashInsert(warning="flash(""warning"")");
