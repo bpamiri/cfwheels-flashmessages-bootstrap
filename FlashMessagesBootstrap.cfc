@@ -1,7 +1,7 @@
 component {
 
 	public any function init() {
-		this.version = "2.0.0";
+		this.version = "2.0";
 		return this;
 	}
 
