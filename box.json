@@ -1,8 +1,8 @@
 {
     "name":"CFWheels FlashMessages Bootstrap",
-    "version":"1.0.4",
+    "version":"1.0.3",
     "author":"Peter Amiri",
-    "location":"bpamiri/cfwheels-flashmessages-bootstrap#v1.0.4",
+    "location":"bpamiri/cfwheels-flashmessages-bootstrap#v1.0.3",
     "homepage":"https://github.com/bpamiri/cfwheels-flashmessages-bootstrap",
     "documentation":"",
     "repository":{
@@ -11,7 +11,7 @@
     },
     "bugs":"",
     "slug":"cfwheels-flashmessages-bootstrap",
-    "shortDescription":"CFWheels 2.0 plugin to add Bootstrap tags to flashMessages",
+    "shortDescription":"Wheels plugin to add Bootstrap tags to flashMessages",
     "description":"",
     "instructions":"",
     "changelog":"",
